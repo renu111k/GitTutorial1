@@ -1,0 +1,126 @@
+    1  ls -al
+    2  git init
+    3  ls -al
+    4  git config --global user.name renuka
+    5  git config --global list renuka
+    6  git config --global --list renuka
+    7  git config --global --list 
+    8  git config --global user.email renkulka@publicisgroupe.com
+    9  touch a.txt
+   10  ls
+   11  git status
+   12  git add a.txt
+   13  git status
+   14  git commit -m "Initial Commit"
+   15  git status
+   16  touch b.txt
+   17  git status
+   18  git add b.txt
+   19  git status
+   20  git commit -m "initial commit"
+   21  git status
+   22  git log 
+   23  cd .git
+   24  ls
+   25  cd objects
+   26  ls
+   27  cd 16
+   28  ls
+   29  cat 5674c5e56051700c1eaefed533ce5bdb40bac7 
+   30  cd ..
+   31  cd ..
+   32  cd ..
+   33  ls
+   34  code .
+   35  git status
+   36  git add a.txt
+   37  git status
+   38  git reset HEAD a.txt
+   39  git status
+   40  git checkout -- a.txt
+   41  git status
+   42  git add a.txt
+   43  git status
+   44  git commit -m "v1"
+   45  git status
+   46  git add b.txt
+   47  git status
+   48  git reset HEAD b.txt
+   49  git add a.txt
+   50  git add b.txt
+   51  git status
+   52  git commit -m "v2"
+   53  git log
+   54  git checkout a.txt
+   55  git log --oneline
+   56  git checkout 4caa
+   57  git checkout master
+   58  git log --oneline
+   59  git remote add origin https://github.com/renu111k/LearningGit.git
+   60  git remote add origin https://github.com/renu111k/LearningGit.git
+   61  git push origin master
+   62  ls
+   63  git status
+   64  git add a.txt
+   65  git commit -m "v3"
+   66  git status
+   67  git push origin master
+   68  history>command.txt
+   69  git add command.txt
+   70  git commit -m"v4"
+   71  git push orign master 
+   72  git push origin master 
+   73  git clone https://github.com/renu111k/GitTutorial1.git
+   74  cd ..
+   75  git clone https://github.com/renu111k/GitTutorial1.git
+   76  cd GitTutorial1
+   77  touch renuka.txt
+   78  git status
+   79  git add renuka.txt
+   80  git commit -m "renu commit"
+   81  git push https://github.com/renu111k/GitTutorial1.git master
+   82  git pull origin master
+   83  git push origin master
+   84  git pull origin master 
+   85  clear
+   86  git status
+   87  git pull origin master
+   88  git log --oneline
+   89  git reset --hard
+   90  git pull origin master
+   91  clear
+   92  git log
+   93  cd ..
+   94  git clone git@github.com:renu111k/GitTutorial1.git
+   95  cd GitTutorial1/
+   96  git log 
+   97  touch renuka.txt\
+   98  touch renuka.txt
+   99  git add renuka.txt
+  100  git add match.txt
+  101  git commit -m"v1"
+  102  git push origin master
+  103  git pull origin master
+  104  git status
+  105  git pull origin master
+  106  git pull origin master
+  107  git status
+  108  git checkout -- match.txt
+  109  git pull origin master
+  110  git status
+  111  git add match.txt
+  112  git commit -m" v3"
+  113  git push origin master
+  114  git pull origin master
+  115  git status
+  116  git add match.txt 
+  117  git commit -m "reslved the conflict"
+  118  git push origin master
+  119  git pull origin master
+  120  git stash save
+  121  git pull origin master
+  122  git stash pop
+  123  git add match.txt 
+  124  git commit -m "resolving the conflicts and pushing the updates"
+  125  git push origin master
+  126  history > commands.txt
